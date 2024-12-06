@@ -1,0 +1,68 @@
+* {
+    margin: 12px;
+    padding: 3px;
+}
+
+
+.tabeladehorarios{
+    background-color:black;
+    padding: 70px;
+    border: 10px solid orangered;
+    margin: 10px;
+    position: absolute;
+    top: 160px;
+    left: 440px;
+    text-align: center;
+
+}
+.coroa{
+    width: 80px;
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
+h3{
+    display: grid;
+    text-align: start;
+}
+body{
+    background-image: url(um\ relogio\ estilo\ retro.png);
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    max-width: 1400px;
+    padding: 5%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+}
+nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color:White
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: rgb(248, 104, 7);
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Dono{
+    background-color:white;
+    height: 300px;
+    width: 900px;
+    padding: 70px;
+    border: 10px solid orangered;
+    margin: 10px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    border-radius: 50px;
+}
+.Arlindo img{
+    position: absolute;
+    border-radius: 150px;
+    height: 300px;
+    top: 80px;
+    right:40px
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+}
+nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color:White
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: rgb(248, 104, 7);
+}
+
+body{
+    background-image: url(um\ forno\ de\ padaria.png);
+}
+a{
+    text-decoration: none;
+}
